@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 lucky wheel</title>
+    <link rel="stylesheet" href="luckywheel/1wheel.css">
+</head>
+
+<body>
+    <a id="two-wheel-button" href="luckywheel/2wheel.html">to 2 wheels</a>
+    <div class="header">
+        <h1>WINNER</h1>
+        <p id="winner">NONE</p>
+    </div>
+    <div class="wheel">
+        <canvas class="" id="canvas" width="500" height="500"></canvas>
+        <div class="center-circle" onclick="spin()">
+            <div class="triangle"></div>
+        </div>
+        
+    </div>
+    <div class="inputArea" onchange="createWheel()">
+        <textarea rows="20" cols="30" >output1
+output2
+output3
+output4</textarea>
+    </div>
+
+    <script src="luckywheel/1wheel.js"></script>
+
+</body>
+</html>

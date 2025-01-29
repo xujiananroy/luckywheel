@@ -1,0 +1,50 @@
+body{ background-color: #333; }
+
+#one-wheel-button {
+    position: fixed;
+    z-index: 1000;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    color: #fff;
+    border: 3px #fff solid;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.wheel{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.center-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+textarea{
+    background-color: rgba(20, 20, 20, 0.2);
+    caret-color: #fff;
+    resize: none;
+    color: #fff;
+}
+
+.inputArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    position: absolute;
+}
+
+#inputArea1{
+    left: 30%;
+}
+#inputArea2{
+    right: 30%;
+}
